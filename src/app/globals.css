@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #F2F4F1;
+    --bg-top: #E9EEE7;
+    --surface: #FFFFFF;
+    --surface-ink: #121412;
+    --ink: #0F1410;
+    --muted: #6B7280;
+    --accent: #D7F94C;
+    --accent-ink: #101208;
+    --success: #0E9F6E;
+    --warning: #F59E0B;
+    --danger: #E5484D;
+    --border: #E6E9E4;
+    
+    --radius-card: 24px;
+    --radius-field: 14px;
+    --radius-pill: 999px;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply text-ink antialiased;
+    background: linear-gradient(to bottom, var(--bg-top) 0%, var(--bg) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Cache bust 1 */
