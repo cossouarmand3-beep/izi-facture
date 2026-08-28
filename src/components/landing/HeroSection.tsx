@@ -13,7 +13,7 @@ export function HeroSection() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
           <Link 
-            href="/tableau-de-bord" 
+            href="/inscription" 
             className="magnetic-btn bg-landing-primary-container text-landing-on-primary font-landing-label-md text-base px-8 py-4 rounded-lg flex items-center justify-center gap-2 transition-transform duration-300 hover:scale-105 active:scale-95"
           >
             Commencer gratuitement

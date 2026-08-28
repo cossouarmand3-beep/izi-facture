@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export function PricingSection() {
   return (
@@ -25,9 +26,9 @@ export function PricingSection() {
                 <span className="font-landing-body-md text-base text-landing-on-surface-variant">1 utilisateur</span>
               </li>
             </ul>
-            <button className="w-full bg-landing-surface-container hover:bg-landing-surface-container-high text-landing-on-surface font-landing-label-md text-sm py-3 rounded-lg transition-colors border border-landing-outline-variant">
+            <Link href="/inscription" className="block w-full text-center bg-landing-surface-container hover:bg-landing-surface-container-high text-landing-on-surface font-landing-label-md text-sm py-3 rounded-lg transition-colors border border-landing-outline-variant">
               Choisir ce plan
-            </button>
+            </Link>
           </div>
 
           {/* Plan Pro */}
@@ -48,9 +49,9 @@ export function PricingSection() {
                 <span className="font-landing-body-md text-base text-landing-on-surface-variant">Support prioritaire</span>
               </li>
             </ul>
-            <button className="magnetic-btn w-full bg-landing-primary-container text-landing-on-primary font-landing-label-md text-sm py-3 rounded-lg transition-colors active:scale-95">
+            <Link href="/inscription" className="magnetic-btn block w-full text-center bg-landing-primary-container text-landing-on-primary font-landing-label-md text-sm py-3 rounded-lg transition-colors active:scale-95">
               Choisir ce plan
-            </button>
+            </Link>
           </div>
 
           {/* Plan Business */}
@@ -70,9 +71,9 @@ export function PricingSection() {
                 <span className="font-landing-body-md text-base text-landing-on-surface-variant">Rapports avancés</span>
               </li>
             </ul>
-            <button className="w-full bg-landing-surface-container hover:bg-landing-surface-container-high text-landing-on-surface font-landing-label-md text-sm py-3 rounded-lg transition-colors border border-landing-outline-variant">
+            <Link href="/inscription" className="block w-full text-center bg-landing-surface-container hover:bg-landing-surface-container-high text-landing-on-surface font-landing-label-md text-sm py-3 rounded-lg transition-colors border border-landing-outline-variant">
               Choisir ce plan
-            </button>
+            </Link>
           </div>
         </div>
       </div>
