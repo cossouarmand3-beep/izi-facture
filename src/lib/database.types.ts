@@ -171,6 +171,8 @@ export type Database = {
           rc: string | null
           swift: string | null
           tax_rate: string | null
+          logo: string | null
+          user_avatar: string | null
           updated_at: string
         }
         Insert: {
@@ -193,6 +195,8 @@ export type Database = {
           rc?: string | null
           swift?: string | null
           tax_rate?: string | null
+          logo?: string | null
+          user_avatar?: string | null
           updated_at?: string
         }
         Update: {
@@ -215,6 +219,8 @@ export type Database = {
           rc?: string | null
           swift?: string | null
           tax_rate?: string | null
+          logo?: string | null
+          user_avatar?: string | null
           updated_at?: string
         }
         Relationships: []
